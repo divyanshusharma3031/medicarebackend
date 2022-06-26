@@ -7,7 +7,7 @@ connectmongo();
 require("dotenv").config();
 const app=express();
 
-const disease=require("../Frontend/src/components/symptoms");
+const disease=require("./utils/disease.js");
 
 const parser=require("body-parser");
 
