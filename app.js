@@ -20,6 +20,7 @@ app.use(cors());
 
 app.post('/getdisease',async (req,res)=>{
     let symptom=req.body.symptom;
+    console.log(symptom);
     for(let i=0;i<disease.length;i++)
     {
         console.log(disease[i]);
