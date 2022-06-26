@@ -43,7 +43,6 @@ app.post("/getappointment",async(req,res)=>{
 })
 
 app.get('/',async (req,res)=>{
-    console.log(data);
     res.status(200).send("Working fine");
 })
 app.listen(process.env.PORT || 4000 ,(req,res)=>
