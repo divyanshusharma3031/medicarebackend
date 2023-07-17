@@ -1,5 +1,10 @@
 const disease=[
     {
+        symptom:"Select Your Symptoms",
+        disease:"Fever",
+        precaution:["Rest","Drink Fluids","Maintain Healthy Diet"]
+    },
+    {
         symptom:"Headache",
         disease:"Fever",
         precaution:["Rest","Drink Fluids","Maintain Healthy Diet"]
